@@ -1,5 +1,7 @@
-# Realiza sumas y restas de numeros enteros y decimales. Si se quiere sustraer
-# un valor, el numero debera ser declarado como variable negativa.
+""" Realiza sumas y restas de numeros enteros y decimales. Si se quiere
+sustraer un valor, el numero debera ser declarado como variable negativa."""
+
+
 class Operator_one():
     # Esta funcion recibe los valoes, sean positivos o negativos.
     def Data_inputs(self, Var_quantity):
@@ -11,7 +13,7 @@ class Operator_one():
 
     # La operacion aritmetica se realiza la siguiente funcion.
     def Operation(self):
-        lenght = len(self.data)
+        # lenght = len(self.data)
         result = 0
         for j in self.data:
             result = result + j

@@ -19,11 +19,10 @@ segundo = [['Said', 8, 5, 5, 6, 3, 4, 8, 1, 6, 10, 5, 5, 4, 3, 7, 6, 5, 3, 6, 8]
 '''for a in range(4):
     for b in range(21):
         print(campos[b], ' ', cuarto[a][b])'''
-cuar = 2
-sega = 1
-segb = 3
+cuar = 1
+sega = 5
+segb = 5
 print(cuarto[cuar][0], ' + ', segundo[sega][0], ' + ', segundo[segb][0])
-print(segundo[0][0])
 for d in range(1, 20):
     total = ((cuarto[cuar][d]) + (segundo[sega][d] + segundo[segb][d]))/ 3
     print(campos[d], ' ', total)
