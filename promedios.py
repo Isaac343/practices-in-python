@@ -24,5 +24,5 @@ sega = 5
 segb = 5
 print(cuarto[cuar][0], ' + ', segundo[sega][0], ' + ', segundo[segb][0])
 for d in range(1, 20):
-    total = ((cuarto[cuar][d]) + (segundo[sega][d] + segundo[segb][d]))/ 3
+    total = ((cuarto[cuar][d]) + (segundo[sega][d] + segundo[segb][d])) / 3
     print(campos[d], ' ', total)

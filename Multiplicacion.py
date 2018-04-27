@@ -1,5 +1,7 @@
 """ Obtener el producto de una serie de n-esimos números determinados por el
 usuario"""
+
+
 class Operator_two():
     """docstring for Operator_two."""
     def __init__(self, num_of_vars):
@@ -14,6 +16,7 @@ class Operator_two():
         for b in self.data:
             result = result * b
         print(result)
+
 
 num_of_vars = int(input('Cantidad de números a multiplicar: '))
 Ot = Operator_two(num_of_vars)
