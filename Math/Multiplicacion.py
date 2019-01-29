@@ -4,9 +4,10 @@ usuario"""
 
 class Operator_two():
     """docstring for Operator_two."""
+
     def __init__(self, num_of_vars):
         self.quantity = num_of_vars
-        self.data= []
+        self.data = []
         for a in range(self.quantity):
             self.value_a = float(input('Valor: '))
             self.data.append(self.value_a)
