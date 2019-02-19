@@ -10,3 +10,9 @@ class unit():
         self.speed = 5
         self.min_range = 0
         self.max_range = 1
+
+    def movment(self):
+        self.north = 1
+        self.south = -1
+        self.west = -1
+        self.east = 1
